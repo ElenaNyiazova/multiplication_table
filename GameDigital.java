@@ -8,7 +8,7 @@ public class GameDigital {
         System.out.println(" Для выхода ответь 0");
         do{
             q++;
-            x=(int)(Math.random()*4)+1;
+            x=(int)(Math.random()*10)+1;
             y=(int)(Math.random()*10)+1;
             z=x*y;
             System.out.print("Сколько будет "+x+" * "+y+" = ");
