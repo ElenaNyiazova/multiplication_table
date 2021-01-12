@@ -24,7 +24,7 @@ public class GameDigital {
                 System.out.println("Правельно!");
                 r++;
             } else {
-                System.out.println("Не верно, попробуй ещё раз.");
+                System.out.println("Не верно! Правельный ответ: "+z+" \nОтветь на следующий вопрос");
             }
         }while (answer!=0);
     }
